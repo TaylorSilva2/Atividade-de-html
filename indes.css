@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container div{
+  padding: 20px ;
+  text-align: right;
+
+}
+.imagens{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.texto{
+    margin: 20px;
+    width: auto;
+    text-align: justify;
+    font-style: normal;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer{
+    text-align: center;
+    padding: 10x;
+    font-size: 50%;
+    display: block;
+}
+nav a:hover{
+    color:rgb(16, 118, 177)
+}
+nav a{
+    color: black;
+}   
