@@ -1,0 +1,55 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    
+     "imagens imagens" 
+     "main main"
+     "footer footer";
+     padding: 20px ;
+   
+}
+
+img {
+    grid-area: img;
+    justify-content: left;
+}
+
+.imagens{
+    grid-area:imagens ;
+    text-align: center;
+    width: 100%;
+    padding: 0%;
+    margin: auto;
+}
+.texto{
+    grid-area: main;
+    margin: 20px;
+    width: auto;
+    text-align: justify;
+    font-style: normal;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+footer{
+    grid-area:footer ;
+    font-size: 50%;
+    text-align: center;
+   
+}
+nav a:hover{
+    color:rgb(16, 118, 177)
+}
+nav a{
+    grid-area: nav;
+    justify-content: right;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    justify-items: left;
+}
